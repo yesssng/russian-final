@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Электронный словарь</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Англицизмы</div>
+      <div class="search">
+        <form id="searchForm">
+          <input placeholder="Введите слово..." type="text" id="searchInput" name="searchInput" required>
+          <button type="submit">Искать</button>
+        </form>
+        <div id="result"></div>
+      </div>
+      <ul>
+      <li><a href="#main_page">Главная</a></li>
+      <li><a href="#facts">Факты</a></li>
+      <li><a href="#ab_project">О проекте</a></li>
+      </ul>
+    </header>
+    <main>
+      <div id="main_page" class="word-of-day">
+        <span class="title">Слово дня</span>
+        <h1>Бра́узер</h1>
+        <hr>
+        <span class="definition">Что это значит?</span>
+        <p>Веб-браузер (от англ. web browser) —прикладное программное обеспечение для просмотра страниц, содержания веб-документов, компьютерных файлов и их каталогов; управления веб-приложениями; а также для решения других задач. В глобальной сети браузеры используют для запроса, обработки, манипулирования и отображения содержания веб-сайтов. Многие современные браузеры также могут использоваться для непосредственного просмотра содержания файлов многих графических форматов (gif, jpeg, png, svg), аудио- и видеоформатов (mp3, mpeg), текстовых форматов (pdf, djvu) и других файлов.</p>
+      </div>
+      <div class="fact" id="facts">
+      <h2 class="about_title">А вы знали?</h2>
+          <span class="about_desc"></span>
+      </div>
+    <div class="project_about" id="ab_project">
+      <div class="project_img"><img width="500" style="margin: 80px 0 0 50px" src="images/man-reading-book-png.png" alt=""></div>
+      <div class="project">
+      <h2>О проекте</h2>
+      <p>В данной научной работе было рассмотрено влияние англицизмов на современную речь и на айти сферу в частности. В контексте масштабных исторических событий, мы выяснили, что выбор в пользу английского языка как языка универсального международного общения не случаен. Учитывая мировой вектор развития в виде глобализации, знание английского является необходимым. В наше время всё уже перетекает через средства информационных технологии, и эта позиция с каждым годом будет укрепляться лишь прочнее. Ко всем выводам мы пришли в результате рассмотрения научных трудов, а именно статьей и журналов, которые относятся к теме нашей работы. Также учитывая обширный словарный запас в русском языке и великое количество слов, включая и англицизмы, их значимость и весомость несомненно не могут быть недооценены. Это было прояснено в результате анализа исследования «Словарный запас носителей русского языка: влияние возраста и образования» Г. Головина, где опираясь на уровень образования людей, выяснили средний словарный запас каждой из категории. Было это сделано с целью демонстрации значимости и масштаба англицизмов в речи русскоговорящих людей.</p>
+    </div>
+  </div>
+    </main>
+    <footer>
+      <img  height="80" src="images/aitu-logo_white.png" alt="">
+      <span style="font-size: 20px; font-weight: 600;">2024</span>
+      <div><span><b>Работу выполнили:</b></span>
+        <span>Адиль Есенгарин</span>
+        <span>Абылхайыр Сейткадыр</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
